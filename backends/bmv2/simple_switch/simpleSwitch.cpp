@@ -246,7 +246,17 @@ Util::IJson* ExternConverter_hash::convertExternFunction(
         v1model.algorithm.crc32.name, v1model.algorithm.crc32_custom.name,
         v1model.algorithm.crc16.name, v1model.algorithm.crc16_custom.name,
         v1model.algorithm.random.name, v1model.algorithm.identity.name,
-        v1model.algorithm.csum16.name, v1model.algorithm.xor16.name
+        v1model.algorithm.csum16.name, v1model.algorithm.xor16.name,
+        v1model.algorithm.h1.name, v1model.algorithm.h2.name,
+        v1model.algorithm.h3.name, v1model.algorithm.h4.name,
+        v1model.algorithm.g1.name, v1model.algorithm.g2.name,
+        v1model.algorithm.g3.name, v1model.algorithm.g4.name,
+        v1model.algorithm.g3.name, v1model.algorithm.d1.name,
+        v1model.algorithm.g3.name, v1model.algorithm.d2.name,
+        v1model.algorithm.g3.name, v1model.algorithm.d3.name,
+        v1model.algorithm.g3.name, v1model.algorithm.d4.name,
+        v1model.algorithm.g3.name, v1model.algorithm.d5.name,
+        v1model.algorithm.g3.name, v1model.algorithm.d6.name
     };
 
     if (mc->arguments->size() != 5) {

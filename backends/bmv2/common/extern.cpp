@@ -259,6 +259,34 @@ ExternConverter::convertHashAlgorithm(cstring algorithm) {
         result = "csum16";
     else if (algorithm == P4V1::V1Model::instance.algorithm.xor16.name)
         result = "xor16";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.h1.name)
+        result = "h1";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.h2.name)
+        result = "h2";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.h3.name)
+        result = "h3";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.h4.name)
+        result = "h4";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.g1.name)
+        result = "g1";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.g2.name)
+        result = "g2";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.g3.name)
+        result = "g3";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.g4.name)
+        result = "g4";   
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d1.name)
+        result = "d1";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d2.name)
+        result = "d2";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d3.name)
+        result = "d3";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d4.name)
+        result = "d4";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d5.name)
+        result = "d5";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d6.name)
+        result = "d6";
     else
         ::error(ErrorType::ERR_UNSUPPORTED, "Unsupported algorithm %1%", algorithm);
     return result;
